@@ -1075,3 +1075,19 @@ section:last-child {
   margin-bottom: 0;
   padding-bottom: 6rem
 }
+
+@media (max-width: 600px) {
+  .component.cardsWrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .component.cardsWrapper>.container {
+    margin: 0;
+  }
+
+  .component.cardsWrapper>.container:nth-child(2) {
+    margin-top: 2rem;
+  }
+}
