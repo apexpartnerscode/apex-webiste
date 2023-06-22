@@ -1088,6 +1088,6 @@ section:last-child {
   }
 
   .component.cardsWrapper>.container:nth-child(2) {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
